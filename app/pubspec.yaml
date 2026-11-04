@@ -1,0 +1,26 @@
+name: openvoiceactor
+description: "Voice acting projects for small teams: define lines, record takes, and bring them back together."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.13.7
+
+dependencies:
+  file_selector: ^1.0.3
+  flutter:
+    sdk: flutter
+  ova_capture:
+    path: ../packages/ova_capture
+  ova_core:
+    path: ../packages/ova_core
+
+dev_dependencies:
+  flutter_lints: ^6.0.0
+  integration_test:
+    sdk: flutter
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true

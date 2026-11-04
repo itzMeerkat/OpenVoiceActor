@@ -1,0 +1,2 @@
+# The engine has one capture session per process, and test files share a process.
+concurrency: 1

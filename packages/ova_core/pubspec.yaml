@@ -1,0 +1,17 @@
+name: ova_core
+description: "OpenVoiceActor logic: the file format, local storage and controllers. No UI and no Flutter, so screens can change freely."
+version: 0.1.0
+publish_to: 'none'
+
+environment:
+  sdk: ^3.13.7
+
+dependencies:
+  archive: ^4.6.0
+  crypto: ^3.0.6
+  path: ^1.9.0
+  uuid: ^4.5.1
+
+dev_dependencies:
+  lints: ^6.0.0
+  test: ^1.28.0
